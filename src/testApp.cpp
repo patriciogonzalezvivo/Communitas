@@ -23,10 +23,10 @@ void testApp::setup(){
 	ofEnableAlphaBlending();
 	//ofSetBackgroundAuto(true);
 	
-	screenWidth = ofGetScreenWidth()*1.5;
-	screenHeight = ofGetScreenHeight()*1.5;
+	screenWidth = 1280;//ofGetScreenWidth()*1.5;
+	screenHeight = 960;//ofGetScreenHeight()*1.5;
 	
-	blur.setup(ofGetScreenWidth(), ofGetScreenHeight());
+	blur.setup(screenWidth, screenHeight);
 	blur.setRadius(3);
 	blur.setPasses(1);
 	
@@ -37,10 +37,10 @@ void testApp::setup(){
 	drawSpaceBorders	= false;
 	interact			= true;
 	
-	universe.findCenter();
+	universe.findCenter(screenWidth,screenHeight);
 	universe.mass			= 0.75;
-	universe.vortex			= ofGetScreenHeight()*0.1;
-	universe.maxDistance	= ofGetScreenHeight()*0.5;
+	universe.vortex			= screenHeight*0.1;
+	universe.maxDistance	= screenHeight*0.5;
 	
 	//universe.density		= 0.4;
 	universe.ph				= 6.5;
@@ -52,10 +52,10 @@ void testApp::setup(){
 	//universe.impulse		= 0.4;
 	universe.angle			= 0;
 	
-	nucle.findCenter();
+	nucle.findCenter(screenWidth,screenHeight);
 	nucle.mass				= 10;
-	nucle.vortex			= ofGetScreenHeight()*0.1;
-	nucle.maxDistance		= ofGetScreenHeight()*0.1;
+	nucle.vortex			= screenHeight*0.1;
+	nucle.maxDistance		= screenHeight*0.1;
 	
 	nucle.density			= 1;	//= 0.05;
 	nucle.ph				= 7;	//= 6.9;
@@ -95,7 +95,7 @@ void testApp::update(){
 	
 	if (timer <= standBy){
 		nucle.mass				= 10;
-		nucle.maxDistance		= ofGetWindowHeight()*0.07;
+		nucle.maxDistance		= screenHeight*0.07;
 		
 		if ( timer >= (standBy-standBy/3)){
 			universe.mass		= 10;
@@ -117,7 +117,7 @@ void testApp::update(){
 			fboAlpha			= 150;
 		}
 	} else {
-		nucle.maxDistance		= ofGetWindowHeight()*0.01;
+		nucle.maxDistance		= screenHeight*0.01;
 		nucle.mass				= 0.7;
 		blur.setRadius(2);
 		fboAlpha				= 255;
@@ -247,21 +247,21 @@ void testApp::mouseDragged(int x, int y, int button){
 }
 
 void testApp::windowResized(int w, int h){
-	blur.setup(ofGetScreenWidth(), ofGetScreenHeight());
+	blur.setup(screenWidth, screenHeight);
 	blur.begin();
 	ofClear(0, 0, 0, 255);
 	blur.end(false);
 	
-	universe.findCenter();
-	nucle.findCenter();
+	universe.findCenter(screenWidth,screenHeight);
+	nucle.findCenter(screenWidth,screenHeight);
 }
 
 void testApp::tuioAdded(ofxTuioCursor & tuioCursor){
-	addParticle(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight(),tuioCursor.getSessionId());
+	addParticle(tuioCursor.getX()*screenWidth,tuioCursor.getY()*screenHeight,tuioCursor.getSessionId());
 }
 
 void testApp::tuioUpdated(ofxTuioCursor &tuioCursor){
-	addParticle(tuioCursor.getX()*ofGetWidth(),tuioCursor.getY()*ofGetHeight(),tuioCursor.getSessionId());
+	addParticle(tuioCursor.getX()*screenWidth,tuioCursor.getY()*screenHeight,tuioCursor.getSessionId());
 }
 
 void testApp::tuioRemoved(ofxTuioCursor & tuioCursor){
