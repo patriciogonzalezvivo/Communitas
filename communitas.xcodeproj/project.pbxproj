@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D15690E140C5CC300C4B2EE /* HorizontalBlur.frag in Sources */ = {isa = PBXBuildFile; fileRef = 3D15690C140C5CC300C4B2EE /* HorizontalBlur.frag */; };
+		3D15690F140C5CC300C4B2EE /* VerticalBlur.frag in Sources */ = {isa = PBXBuildFile; fileRef = 3D15690D140C5CC300C4B2EE /* VerticalBlur.frag */; };
 		3D4753B113DF6AB0004BF421 /* liboscpack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D47539713DF6AB0004BF421 /* liboscpack.a */; };
 		3D4753B213DF6AB0004BF421 /* liboscpack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D47539813DF6AB0004BF421 /* liboscpack.a */; };
 		3D4753B313DF6AB0004BF421 /* osc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D47539A13DF6AB0004BF421 /* osc.a */; };
@@ -70,8 +72,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3D0CECC913E0A97400CF31C1 /* HorizontalBlur.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HorizontalBlur.fs; path = bin/data/shaders/HorizontalBlur.fs; sourceTree = SOURCE_ROOT; };
-		3D0CECCA13E0A97400CF31C1 /* VerticalBlur.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = VerticalBlur.fs; path = bin/data/shaders/VerticalBlur.fs; sourceTree = SOURCE_ROOT; };
+		3D15690C140C5CC300C4B2EE /* HorizontalBlur.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = HorizontalBlur.frag; path = bin/data/shaders/HorizontalBlur.frag; sourceTree = SOURCE_ROOT; };
+		3D15690D140C5CC300C4B2EE /* VerticalBlur.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = VerticalBlur.frag; path = bin/data/shaders/VerticalBlur.frag; sourceTree = SOURCE_ROOT; };
 		3D47538113DF6AB0004BF421 /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = install.xml; path = ../../../addons/ofxOsc/install.xml; sourceTree = SOURCE_ROOT; };
 		3D47538613DF6AB0004BF421 /* IpEndpointName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IpEndpointName.h; path = ../../../addons/ofxOsc/libs/oscpack/include/ip/IpEndpointName.h; sourceTree = SOURCE_ROOT; };
 		3D47538713DF6AB0004BF421 /* NetworkingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkingUtils.h; path = ../../../addons/ofxOsc/libs/oscpack/include/ip/NetworkingUtils.h; sourceTree = SOURCE_ROOT; };
@@ -174,8 +176,8 @@
 		3D0CECC813E0A97400CF31C1 /* shaders */ = {
 			isa = PBXGroup;
 			children = (
-				3D0CECC913E0A97400CF31C1 /* HorizontalBlur.fs */,
-				3D0CECCA13E0A97400CF31C1 /* VerticalBlur.fs */,
+				3D15690C140C5CC300C4B2EE /* HorizontalBlur.frag */,
+				3D15690D140C5CC300C4B2EE /* VerticalBlur.frag */,
 			);
 			name = shaders;
 			path = bin/data/shaders;
@@ -559,6 +561,8 @@
 				3D4753BB13DF6AB0004BF421 /* ofxOscMessage.cpp in Sources */,
 				3D4753BC13DF6AB0004BF421 /* ofxOscReceiver.cpp in Sources */,
 				3D4753BD13DF6AB0004BF421 /* ofxOscSender.cpp in Sources */,
+				3D15690E140C5CC300C4B2EE /* HorizontalBlur.frag in Sources */,
+				3D15690F140C5CC300C4B2EE /* VerticalBlur.frag in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
