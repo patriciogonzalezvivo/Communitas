@@ -10,23 +10,36 @@ OF_ROOT = ../../..
 # for example search paths like:
 # USER_CFLAGS = -I src/objects
 
-USER_CFLAGS = -I /usr/include/ni -I /usr/include/nite -l GL -l OpenNI
+USER_CFLAGS = -I src/ofxTuio/src/
 
 
 # USER_LDFLAGS allows to pass custom flags to the linker
 # for example libraries like:
 # USER_LD_FLAGS = libs/libawesomelib.a
 
-USER_LD_FLAGS = /usr/lib/ /usr/lib/libnimCodecs.so /usr/lib/libnimMockNodes.so /usr/lib/libnimRecorder.so /usr/lib/libXnCore.so /usr/lib/libXnDDK.so /usr/lib/libXnDeviceFile.so /usr/lib/libXnDeviceSensorV2.so /usr/lib/libXnFormats.so /usr/lib/libXnVCNITE_1_3_1.so /usr/lib/libXnVFeatures.so /usr/lib/libXnVFeatures_1_3_1.so /usr/lib/libXnVHandGenerator.so /usr/lib/libXnVHandGenerator_1_3_1.so /usr/lib/libXnVNite.so /usr/lib/libXnVNite_1_3_1.so /usr/lib/libOpenNI.so 
+USER_LDFLAGS = ../../../addons/ofxOsc/libs/oscpack/lib/linux/liboscpack.a
+
 
 # use this to add system libraries for example:
 # USER_LIBS = -lpango
- 
-USER_LIBS = -lOpenNI
+
+USER_LIBS =
+
 
 # change this to add different compiler optimizations to your project
 
-USER_COMPILER_OPTIMIZATION = -march=native -mtune=native -Os
+LINUX_COMPILER_OPTIMIZATION = -march=native -mtune=native -Os
 
+ANDROID_COMPILER_OPTIMIZATION = -Os
+
+
+# you shouldn't need to change this for usual OF apps, it allows to include code from other directories
+# useful if you need to share a folder with code between 2 apps. The makefile will search recursively
+# you can only set 1 path here
+
+USER_SOURCE_DIR =
+
+# you shouldn't need to change this for usual OF apps, it allows to exclude code from some directories
+# useful if you have some code for reference in the project folder but don't want it to be compiled
 
 EXCLUDE_FROM_SOURCE="bin,.xcodeproj,obj"
