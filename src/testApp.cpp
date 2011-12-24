@@ -4,7 +4,7 @@
  *	Communitas
  *
  *  Created by Patricio Gonz‡lez Vivo on 05/07/10.
- *  Copyright 2011 PatricioGonzalezVivo.com. All rights reserved.
+ *  Copyright 2010 http://PatricioGonzalezVivo.com All rights reserved.
  *
  *
  *  This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0
@@ -19,7 +19,7 @@
 
 void testApp::setup(){
 	ofSetFrameRate(60);
-    ofBackground(0, 0, 0);
+	ofBackground(0, 0, 0);
 	ofEnableAlphaBlending();
 	//ofSetBackgroundAuto(true);
 
@@ -32,14 +32,14 @@ void testApp::setup(){
 
 	receiver.setup( PORT );
 
-	timer				= 0;
-	standBy				= 30;
+	timer			= 0;
+	standBy			= 30;
 	drawSpaceBorders	= false;
-	interact			= true;
+	interact		= true;
 
 	universe.findCenter(screenWidth,screenHeight);
-	universe.mass			= 0.75;
-	universe.vortex			= screenHeight*0.1;
+	universe.mass		= 0.75;
+	universe.vortex		= screenHeight*0.1;
 	universe.maxDistance	= screenHeight*0.5;
 
 	//universe.density		= 0.4;
@@ -47,7 +47,7 @@ void testApp::setup(){
 	universe.joinParticles	= true;
 	universe.correctOrbits	= true;
 	universe.proportional	= true;
-	universe.clockwise		= true;
+	universe.clockwise	= true;
 
 	//universe.impulse		= 0.4;
 	universe.angle			= 0;
@@ -58,14 +58,15 @@ void testApp::setup(){
 	nucle.maxDistance		= screenHeight*0.1;
 
 	nucle.density			= 1;	//= 0.05;
-	nucle.ph				= 7;	//= 6.9;
+	nucle.ph	       		= 7;	//= 6.9;
 	nucle.joinParticles		= true;
 
 	nucle.correctOrbits		= false;// = true;
 	nucle.proportional		= false;
 	nucle.clockwise			= false;
 	nucle.impulse			= 0.19;
-	nucle.angle				= 0;	//= -25;
+	nucle.angle		       	= 0;	//= -25;
+	ofVec2f a;
 
 	ofAddListener(tuioClient.cursorAdded,this,&testApp::tuioAdded);
 	ofAddListener(tuioClient.cursorRemoved,this,&testApp::tuioRemoved);

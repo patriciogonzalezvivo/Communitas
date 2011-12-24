@@ -722,14 +722,14 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
 				);
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/android/arm7\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/android\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/iphone\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/linux\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/linux64\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/osx\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/vs2010\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/win_cb\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"../../../addons/ofxOsc/libs/oscpack/lib/android/arm7\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"../../../addons/ofxOsc/libs/oscpack/lib/android\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"../../../addons/ofxOsc/libs/oscpack/lib/iphone\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"../../../addons/ofxOsc/libs/oscpack/lib/linux\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 = "\"../../../addons/ofxOsc/libs/oscpack/lib/linux64\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6 = "\"../../../addons/ofxOsc/libs/oscpack/lib/osx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7 = "\"../../../addons/ofxOsc/libs/oscpack/lib/vs2010\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8 = "\"../../../addons/ofxOsc/libs/oscpack/lib/win_cb\"";
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				WRAPPER_EXTENSION = app;
@@ -824,14 +824,14 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
 				);
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/android/arm7\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/android\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/iphone\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/linux\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/linux64\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/osx\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/vs2010\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8 = "\"$(DEVELOPER_DIR)/openFrameworks/addons/ofxOsc/libs/oscpack/lib/win_cb\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"../../../addons/ofxOsc/libs/oscpack/lib/android/arm7\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"../../../addons/ofxOsc/libs/oscpack/lib/android\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"../../../addons/ofxOsc/libs/oscpack/lib/iphone\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"../../../addons/ofxOsc/libs/oscpack/lib/linux\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 = "\"../../../addons/ofxOsc/libs/oscpack/lib/linux64\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6 = "\"../../../addons/ofxOsc/libs/oscpack/lib/osx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7 = "\"../../../addons/ofxOsc/libs/oscpack/lib/vs2010\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8 = "\"../../../addons/ofxOsc/libs/oscpack/lib/win_cb\"";
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

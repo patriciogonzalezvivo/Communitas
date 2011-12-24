@@ -4,7 +4,7 @@
  *	Communitas
  *
  *  Created by Patricio González Vivo on 05/07/10.
- *  Copyright 2011 PatricioGonzalezVivo.com. All rights reserved.
+ *  Copyright 2010 http://PatricioGonzalezVivo.com All rights reserved.
  *
  *
  *  This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0
