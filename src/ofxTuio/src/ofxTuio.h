@@ -21,8 +21,8 @@
 */
 
 
-#ifndef _OFXTUIO
-#define _OFXTUIO
+#ifndef OFXTUIO_H
+#define OFXTUIO_H
 
 #include "ofxTuioClient.h"
 #include "ofxTuioCursor.h"

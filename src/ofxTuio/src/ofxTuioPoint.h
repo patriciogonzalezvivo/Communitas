@@ -20,8 +20,8 @@
  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef _TUIO_POINT
-#define _TUIO_POINT
+#ifndef TUIO_POINT_H
+#define TUIO_POINT_H
 
 //--------------------------------------------------------
 class ofxTuioPoint{

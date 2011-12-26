@@ -13,8 +13,7 @@
  *
  */
 
-#ifndef _OFXSPACE
-#define _OFXSPACE
+#pragma once
 
 #include "ofMain.h"
 
@@ -56,4 +55,3 @@ public:
 	float	mass, vortex, maxDistance, density, ph, joinParticles, impulse, angle;
 	bool	correctOrbits, clockwise, proportional;
 };
-#endif

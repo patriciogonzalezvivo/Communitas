@@ -20,8 +20,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _TUIO_CURSOR
-#define _TUIO_CURSOR
+#ifndef TUIO_CURSOR_H
+#define TUIO_CURSOR_H
 
 #include "ofxTuioContainer.h"
 

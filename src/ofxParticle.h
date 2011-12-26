@@ -13,8 +13,7 @@
  *
  */
 
-#ifndef _OFXPARTICLE
-#define _OFXPARTICLE
+#pragma once
 
 #include "ofMain.h"
 #include "ofxSpace.h"
@@ -182,4 +181,3 @@ private:
 	const	ofxSpace * space;
 	const	ofxParticle * lnk;
 };
-#endif
