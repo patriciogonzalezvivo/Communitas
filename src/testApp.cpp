@@ -23,8 +23,8 @@ void testApp::setup(){
 	ofEnableAlphaBlending();
 	//ofSetBackgroundAuto(true);
 
-	screenWidth = 1280;//ofGetScreenWidth()*1.5;
-	screenHeight = 960;//ofGetScreenHeight()*1.5;
+	screenWidth = ofGetWindowWidth();
+	screenHeight = ofGetWindowHeight();
 
 	blur.setup(screenWidth, screenHeight);
 	blur.setRadius(3);
@@ -248,6 +248,9 @@ void testApp::mouseDragged(int x, int y, int button){
 }
 
 void testApp::windowResized(int w, int h){
+    screenWidth = ofGetWindowWidth();
+	screenHeight = ofGetWindowHeight();
+    
 	blur.setup(screenWidth, screenHeight);
 	blur.begin();
 	ofClear(0, 0, 0, 255);

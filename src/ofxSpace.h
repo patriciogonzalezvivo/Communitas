@@ -37,7 +37,7 @@ public:
 		angle		= 0;
 	};
 	
-	ofxSpace& findCenter(){center = ofVec2f(ofGetScreenWidth()/2, ofGetScreenHeight()/2);return * this;};
+	ofxSpace& findCenter(){center = ofVec2f(ofGetWindowWidth()/2, ofGetWindowHeight()/2);return * this;};
 	ofxSpace& findCenter(int _width, int _height){center = ofVec2f(_width/2, _height/2);return * this;};
 	bool	onSpace(ofVec2f _pos){ if (center.distance(_pos) <= maxDistance) return true; else return false; };
 	
