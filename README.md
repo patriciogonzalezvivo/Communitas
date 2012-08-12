@@ -1,4 +1,6 @@
-# [COMMUNITAS ![communitas](http://patriciogonzalezvivo.com/images/projects/02comunitas.jpg)](http://patriciogonzalezvivo.com/2010/communitas/) #
+# [COMMUNITAS](http://patriciogonzalezvivo.com/2010/communitas/)
+[![communitas](http://patriciogonzalezvivo.com/2010/communitas/thumb.jpg)](http://patriciogonzalezvivo.com/2010/communitas/)
+##### by [Patricio Gonzalez Vivo](http://www.patriciogonzalezvivo.com)
 
 Interactive multiTouch table made using openFrameworks and TUIO protocol. It invites people to create collective drawings. Its goal is to allow people to explore the dynamic process of co-creation with an emphasis on the core value of respecting individual differences.
 
