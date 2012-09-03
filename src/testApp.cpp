@@ -26,7 +26,7 @@ void testApp::setup(){
 	screenWidth = ofGetWindowWidth();
 	screenHeight = ofGetWindowHeight();
 
-	blur.setup(screenWidth, screenHeight);
+	blur.allocate(screenWidth, screenHeight);
 	blur.setRadius(3);
 	blur.setPasses(1);
 
@@ -251,7 +251,7 @@ void testApp::windowResized(int w, int h){
     screenWidth = ofGetWindowWidth();
 	screenHeight = ofGetWindowHeight();
     
-	blur.setup(screenWidth, screenHeight);
+	blur.allocate(screenWidth, screenHeight);
 	blur.begin();
 	ofClear(0, 0, 0, 255);
 	blur.end(false);

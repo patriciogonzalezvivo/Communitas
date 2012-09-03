@@ -1,3 +1,3 @@
-ofxOsc
 ofxFX
+ofxOsc
 ofxTuio
