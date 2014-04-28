@@ -2,9 +2,11 @@
 		
 > _“When we forget ourselves, we are the universe..”_ Hakui
 
-[**Communitas**](http://patriciogonzalezvivo.com/2010/communitas/) is an interactive table for collective drawings..
+[**Communitas**](http://patriciogonzalezvivo.com/2010/communitas/) is an interactive table for collective drawings.
 
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+Communitas was develop for Interactivos 2010 at Espacio Fundación Telefónica
+
+[ ![sponsor](http://patriciogonzalezvivo.com/2010/communitas/sponsor.jpg)](http://www.espacioft.org.ar/)
 
 This application was made using openFrameworks and require the following addons:
 
