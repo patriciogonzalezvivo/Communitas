@@ -8,14 +8,6 @@ Communitas was develop for Interactivos 2010 at Espacio Fundación Telefónica
 
 [ ![sponsor](http://patriciogonzalezvivo.com/2010/communitas/sponsor.jpg)](http://www.espacioft.org.ar/)
 
-This application was made using openFrameworks and require the following addons:
-
-* [ofxFX](https://github.com/patriciogonzalezvivo/ofxFX)
-
-* [ofxTuio](https://github.com/patriciogonzalezvivo/ofxTuio)
-
-* ofxOsc (oF core addon)
-
 ![01](http://patriciogonzalezvivo.com/2010/communitas/01.jpg)
 ![02](http://patriciogonzalezvivo.com/2010/communitas/02.jpg)
 ![03](http://patriciogonzalezvivo.com/2010/communitas/03.jpg)
