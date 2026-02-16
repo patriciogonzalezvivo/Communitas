@@ -1,4 +1,5 @@
-<iframe src="http://player.vimeo.com/video/15171352?autoplay=1" width="575" height="323" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<!-- <iframe src="http://player.vimeo.com/video/15171352?autoplay=1" width="575" height="323" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/15171352?h=2b8e0fde57" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
 		
 > _“When we forget ourselves, we are the universe..”_ Hakui
 
